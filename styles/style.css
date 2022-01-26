@@ -1,3 +1,19 @@
+@keyframes rotation {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -64,6 +80,7 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
+  z-index: 3;
 }
 .header__main-illustrator {
   background: url(../images/header-image.png);
@@ -75,7 +92,10 @@
   height: 608px;
   z-index: 2;
 }
-.header__square-pic {
+
+
+
+.header__rotation {
   position: absolute;
   top: 64px;
   right: 0;
@@ -83,6 +103,11 @@
   width: 568px;
   background-color: #2f80ed;
   z-index: 1;
+  -ms-animation: rotation 2s linear infinite;
+  -moz-animation: rotation 2s linear infinite;
+  -webkit-animation: rotation 2s linear infinite;
+  -o-animation: rotation 2s linear infinite;
+  animation: rotation 2s linear infinite;
 }
 
 
@@ -140,6 +165,60 @@
   margin-bottom: 10px;
   font-weight: 700;
 }
+
+
+.techniques {
+  width: 80%;
+  display: flex;
+  flex-flow:column nowrap;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 0;
+  padding: 100px 0 0;
+
+}
+.cards {
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: start;
+  align-items: stretch;
+  width: 920px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cards__item {
+  margin: 0 100px 0 0;
+  padding: 60px 0 0 0;
+}
+.cards__item:nth-of-type(3n) {
+  margin: 0;
+  padding: 60px 0 0 0;
+}
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  padding: 0 40px;
+}
+.cards__title {
+  max-width: 240px;
+  margin: 0;
+  padding: 43px 0 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.cards__description {
+  max-width: 240px;
+  margin: 0;
+  padding: 16px 0 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
 
 
 
