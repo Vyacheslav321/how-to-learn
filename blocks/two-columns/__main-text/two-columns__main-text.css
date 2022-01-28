@@ -1,0 +1,9 @@
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  margin: 0;
+  display: flex;
+  flex-flow:column nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}

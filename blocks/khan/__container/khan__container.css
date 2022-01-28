@@ -1,0 +1,7 @@
+.khan__container {
+  display: flex;
+  flex-flow:column nowrap;
+  justify-content: stretch;
+  align-content: flex-start;
+  width: 80%;
+}

@@ -1,0 +1,11 @@
+.kaufman {
+  display: flex;
+  flex-flow:column nowrap;
+  align-items: center;
+  padding: 90px 0 90px;
+  overflow: hidden;
+  color: #fff;
+  background-color: #1f1f1f;
+  position: relative; /*здесь родитель для треугольника*/
+  z-index: 10;
+}

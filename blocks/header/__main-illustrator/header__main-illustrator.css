@@ -1,0 +1,10 @@
+.header__main-illustrator {
+  background: url(../images/header-image.png);
+  background-size: 765px 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 2;
+}
