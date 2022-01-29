@@ -9,3 +9,7 @@
   right: 48px;
   z-index: 4;
 }
+.feynman__link:hover {
+  opacity: 70%;
+  transition: opacity 3s;
+}
