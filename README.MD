@@ -8,6 +8,11 @@ Alt-H1
       1. FlexBox
       2. iFrame
       3. transform/animation
+<<<<<<< HEAD
       4. Псевдоклассы.
 
+=======
+      4. Gсевдоклассы.
+      
+>>>>>>> 4fefde3a439d4f713cdfcb222b412ee526a4e0c1
 Верска выполнена по методологии БЭМ Nested.
