@@ -14,6 +14,4 @@
    
    
 #### Моя Статистика :
-<div id="header" align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vyacheslav321&layout=compact&theme=vision-friendly)](https://github.com/anuraghazra/github-readme-stats)"/>
-</div>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vyacheslav321&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
